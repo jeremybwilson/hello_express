@@ -1,0 +1,15 @@
+<% include partials/header %>
+            <div class="row">
+                <div class="col">
+                    <h1>Names</h1>
+                    <p><%= name %></p>
+                    <ul>
+                        <% for (const name of names) { %>
+                        <li>
+                        <%= name %>
+                        </li>
+                        <% } %>
+                    </ul>
+                </div>
+            </div>
+<% include partials/footer %>
